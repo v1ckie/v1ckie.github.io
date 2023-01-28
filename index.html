@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Paradigm Shift by HTML5 UP</title>
+		<title>Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="" />
@@ -21,8 +21,9 @@
 				<!-- Intro -->
 					<section class="intro">
 						<header>
-							<h1>Paradigm Shift</h1>
-							<p>A free responsive site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> / <a href="https://html5up.net">HTML5 UP</a></p>
+							<h1>V1ckie's</h1>
+							<p></p>
+							<h2 style="text-align: center"><span id="ityped"></span></h2>
 							<ul class="actions">
 								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
 							</ul>
@@ -399,7 +400,7 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 
 						</div>
 					</section>
-				-->
+				<!-- -->
 
 				<!-- Section -->
 					<section>
@@ -466,6 +467,15 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/ityped.min.js"></script>
+			<script type="module">
+				ityped.init('#ityped', {
+    strings:['Portfolio', 'Personal website', 'Rant space'],
+    startDelay: 900,
+	backDelay: 1000,
+	typeSpeed: 100,
+    loop: true
+  });
+			</script>
 	</body>
 </html>
